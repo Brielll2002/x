@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Não estudei</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="teoremaPitagoras">
+        <h1>Teorema de Pitagoras</h1>
+
+    <p>A formula: c2 = a2 + b2</p>
+
+    <label for="hipotenusa"><strong>C2</strong> / Linha maior(hipotenusa) </label><br>
+    <input type="number" name="hipotenusa" id="hipotenusa"><br>
+
+    <label for="catetooposto"><strong>A2</strong> / Linha menor(cateto oposto) </label><br>
+    <input type="number" name="catetooposto" id="catetooposto"><br>
+
+    <label for="catetoadjacente"><strong>B2</strong> / Linha oposta à linha maior(cateto adjacente) </label><br>
+    <input type="number" name="catetoadjacente" id="catetoadjacente"><br>
+
+    <input type="submit" value="Calcular" onclick="calcular()">
+
+    <p id="resultado">Cuidado com o professor!</p>
+    </div>
+
+    <div id="leiPrimeiroGau">
+        <h1>Lei de formação de uma função do primeiro grau</h1>
+
+        <p>fórmula: y = a.x + b</p>
+        <p>obs: "A" não pode ser igual a 0</p>
+
+        <label for="y"><strong>Y</strong></label><br>
+        <input type="number" name="y" id="y"><br>
+
+        <label for="a"><strong>A</strong></label><br>
+        <input type="number" name="a" id="a"><br>
+
+        <label for="x"><strong>X</strong></label><br>
+        <input type="number" name="x" id="x"><br>
+
+        <label for="b"><strong>B</strong></label><br>
+        <input type="number" name="b" id="b"><br>
+
+        <input type="submit" value="Calcular" onclick="calcular2()">
+
+        <p id="resultado2">Cuidado com o professor!</p>
+    </div>
+
+    <div id="trianguloRetangulo">
+        <h1>Trigonometria do Triangulo Retangulo</h1>
+
+        <label for="base">Base </label><br>
+        <input type="number" name="base" id="base"><br>
+
+        <label for="altura">Altura </label><br>
+        <input type="number" name="altura" id="altura"><br>
+
+        <input type="submit" value="Calcular" onclick="calcular3()">
+
+        <p id="resultado3">Cuidado com o professor!</p>
+    </div>
+
+    <div id="trigonometria">
+        <h1>Trigonometria só</h1>
+
+        <h2>Seno</h2>
+        <label for="co">Cateto oposto(linha menor) </label><br>
+        <input type="number" name="co" id="co"><br>
+        <label for="h">Hipotenusa(linha maior) </label><br>
+        <input type="number" name="h" id="h"><br>
+        <input type="submit" value="Calcular" onclick="co()">
+        <p id="resultadoco">Cuidado com o professor!</p>
+
+        <h2>Cosseno</h2>
+        
+        <label for="ca">Cateto adjacente(linha oposta a linha maior) </label><br>
+        <input type="number" name="ca" id="ca"><br>
+        <label for="h2">Hipotenusa(não vou repetir o que é) </label><br>
+        <input type="number" name="h2" id="h2"><br>
+        <input type="submit" value="Calcular" onclick="ca()">
+        <p id="resultadoca">Cuidado com o professor!</p>
+
+        <h2>Tangente</h2>
+        <p>Cateto Oposto (dividido por) Cateto Adjacente <br><strong>(Faz pelo menos um calculo)</strong></p>
+    </div>
+</body>
+</html>

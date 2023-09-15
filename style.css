@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font: 13pt arial normal;
+    background-image: linear-gradient(to right, rgb(139, 80, 139), rgb(182, 180, 180) );
+}
+
+div{
+    background-color: rgb(100, 20, 100);
+    color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411) ;
+}
+
+input{
+    margin-bottom: 5px;
+    padding: 10px;
+}
